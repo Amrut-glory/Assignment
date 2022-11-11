@@ -1,0 +1,122 @@
+## Assignment Part-1
+Q1. Why do we call Python as a general purpose and high-level programming language?
+A.  Because we write everything, which is human readble and can not be understood by machine directly.
+
+Q2. Why is Python called a dynamically typed language?
+A.  Because in python we don't have to declare the type of vaiables. It'll identify the type based on value assigned.
+
+Q3. List some pros and cons of Python programming language?
+A.  Pros: simple, free, easy to use, has lots of libraries, extensible, etc.
+    Cons: slow, high memory consumption, etc.
+
+Q4. In what all domains can we use Python?
+A.  data engineering, data science, data analytics, machine learning, artificial intelligence, etc.
+
+Q5. What are variable and how can we declare them?
+A.  Name given to a specific memory location. we don't have to declare it. Variable will be created when a value is assigned to it.
+
+Q6. How can we take an input from the user in Python?
+A.  using input() function. 
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+A.  string
+
+Q8. What is type casting?
+A.  Changing the data type from one to another.
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+A.  
+
+Q10. What are keywords?
+A.   special reserved words that have specific meanings and purposes and can't be used for anything but those specific purposes.
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+Q12. What is indentation? What's the use of indentaion in Python? 
+A.   Indentation is spacing before lines in python. It helps to know what statements belongs which section.
+
+Q13. How can we throw some output in Python?
+A.   uring print() function.
+
+Q14. What are operators in Python?
+A.   Particular symbol which is responsible for particular action.
+
+Q15. What is difference between / and // operators?
+A.   / is used for division of float data type.
+     // is used for division of integer data type.
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+
+a = 4 * 'iNeuron'
+print(a)
+```
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+Number = int(input('Enter a Number'))
+if Number % 2 == 0:
+    print(Number, 'is a even number')
+else:
+    print(Number, 'is a odd number')
+
+Q18. What are boolean operator?
+A.   and, or, not
+
+Q19. What will the output of the following?
+```
+1 or 0 = 1
+
+0 and 0 = 0
+
+True and False and True = False
+
+1 or 0 or 0 = 1
+```
+
+Q20. What are conditional statements in Python?
+A.   If, else, elif
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+A.   To take some decision
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+Age = int(input('Enter age = '))
+if Age >= 18:
+    print("I can vote")
+else:
+    print("I cant't vote")
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+num1 = int(input("Enter first number = "))
+num2 = int(input("Enter second number = "))
+num3 = int(input("Enter third number = "))
+
+if num1 > num2 and num1 > num3:
+    print(num1, " is greatest")
+elif num2 > num1 and num2 > num3:
+    print(num2, " is greatest")
+else:
+    print(num3, " is greatest")
+
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
